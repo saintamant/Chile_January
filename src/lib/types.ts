@@ -104,6 +104,18 @@ export const PLACES: Place[] = [
     telefono: "+56 2 2493 0640",
   },
   {
+    nombre: "Cleto Reyes Chile",
+    tipo: "tienda",
+    direccion: "Las Tranqueras, Las Condes",
+    lat: -33.3987716,
+    lng: -70.5547705,
+    color: "#D32F2F",
+    emoji: "🥊",
+    horario: "L-S 10:00-19:00",
+    distancia_km: 11,
+    tiempo_uber_min: "5-10",
+  },
+  {
     nombre: "Easton Outlet Mall",
     tipo: "outlet",
     direccion: "Av. Frei Montalva 9709, Quilicura",

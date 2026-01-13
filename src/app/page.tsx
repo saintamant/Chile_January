@@ -215,7 +215,7 @@ export default function Home() {
               Viernes 16 - Llegada
             </Badge>
             <p className="text-sm text-muted-foreground">
-              Aeropuerto → Mall Parque Arauco (almuerzo + compras) → Tenis & Golf (⛳) → Depto
+              Aeropuerto → Mall Parque Arauco (almuerzo + compras) → Cleto Reyes (🥊) → Tenis & Golf (⛳) → Depto
             </p>
           </div>
           <div>
