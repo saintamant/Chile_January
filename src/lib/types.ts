@@ -114,6 +114,7 @@ export const PLACES: Place[] = [
     horario: "L-S 10:00-19:00",
     distancia_km: 11,
     tiempo_uber_min: "5-10",
+    telefono: "+56 9 7967 1699",
   },
   {
     nombre: "Easton Outlet Mall",

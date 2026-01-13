@@ -92,13 +92,25 @@ export function MapClient({ selectedPlace, onSelectPlace }: MapClientProps) {
               )}
 
               {place.telefono && (
-                <a
-                  href={`tel:${place.telefono}`}
-                  className="flex items-center gap-1 mt-2 text-sm text-blue-600"
-                >
-                  <Phone className="w-3 h-3" />
-                  <span>{place.telefono}</span>
-                </a>
+                <div className="flex gap-2 mt-2">
+                  <a
+                    href={`tel:${place.telefono}`}
+                    className="flex items-center gap-1 text-sm text-blue-600"
+                  >
+                    <Phone className="w-3 h-3" />
+                    <span>{place.telefono}</span>
+                  </a>
+                  {place.telefono.includes(" 9 ") && (
+                    <a
+                      href={`https://wa.me/${place.telefono.replace(/[^0-9]/g, "")}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-green-500 text-white text-xs px-2 py-1 rounded-full font-medium"
+                    >
+                      WhatsApp
+                    </a>
+                  )}
+                </div>
               )}
 
               <button
