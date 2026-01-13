@@ -212,10 +212,10 @@ export default function Home() {
         <CardContent className="space-y-4">
           <div>
             <Badge variant="outline" className="text-indigo-400 border-indigo-400/50 mb-2">
-              Viernes 16 - PM
+              Viernes 16 - Llegada
             </Badge>
             <p className="text-sm text-muted-foreground">
-              Outlets Quilicura (Easton + Arauco Premium)
+              Aeropuerto → Mall Parque Arauco (almuerzo + compras) → Tenis & Golf (⛳) → Depto
             </p>
           </div>
           <div>
@@ -223,7 +223,7 @@ export default function Home() {
               Sábado 17 - Todo el día
             </Badge>
             <p className="text-sm text-muted-foreground">
-              Mall Parque Arauco (pedir tarjeta Travellers)
+              Outlets Quilicura (Easton + Arauco Premium) - ir descansado para comprar bien
             </p>
           </div>
         </CardContent>
