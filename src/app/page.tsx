@@ -166,6 +166,10 @@ export default function Home() {
           <p className="text-xs text-muted-foreground mt-1">
             {TRIP_INFO.alojamiento.zona} • USD {TRIP_INFO.alojamiento.costo}
           </p>
+          <Badge className="mt-2 bg-purple-600 hover:bg-purple-700">
+            <Clock className="w-3 h-3 mr-1" />
+            Check-in: 19:45
+          </Badge>
         </CardContent>
       </Card>
 
@@ -215,8 +219,9 @@ export default function Home() {
               Viernes 16 - Llegada
             </Badge>
             <p className="text-sm text-muted-foreground">
-              Aeropuerto → Mall Parque Arauco (almuerzo + compras) → Cleto Reyes (🥊) → Tenis & Golf (⛳) → Depto
+              Aeropuerto → Mall Parque Arauco (almuerzo + compras) → Cleto Reyes 🥊 (~$325k CLP) → Tenis & Golf ⛳ → Depto
             </p>
+            <p className="text-xs text-amber-400 mt-1">⚠️ Check-in depto: 19:45</p>
           </div>
           <div>
             <Badge variant="outline" className="text-indigo-400 border-indigo-400/50 mb-2">
